@@ -118,23 +118,35 @@
 		</data>
 		<key>app/bundle.js</key>
 		<data>
-		1JoLpkciXD2nUfwafLWllOE666o=
+		AizGZwxUpR7Hb0Xbx7gI19pngpg=
 		</data>
 		<key>app/package.json</key>
 		<data>
 		itzMPDzLq+Ekr2x3pab8B3Vk3Us=
 		</data>
+		<key>app/runtime.f5d26b679c1164b176bd.hot-update.js</key>
+		<data>
+		MwzithJWL9Oo/5fynyvt3d84KHA=
+		</data>
+		<key>app/runtime.f5d26b679c1164b176bd.hot-update.json</key>
+		<data>
+		J+lGGeTIo2fdNm4p1lD3+DGOuJ8=
+		</data>
 		<key>app/runtime.js</key>
 		<data>
-		F1tb7OSIoQ1K3iwR1SMC4ClKpcc=
+		m3AzVmZytDAXCKRrd2Ap2niZLq0=
 		</data>
 		<key>app/tns_modules/inspector_modules.js</key>
 		<data>
 		GwpyORDCmAGh0MUPNAkpV7e+E1k=
 		</data>
+		<key>app/vendor.f5d26b679c1164b176bd.hot-update.js</key>
+		<data>
+		QFK1bnLiZfbQRZPVv38LTX/pf4U=
+		</data>
 		<key>app/vendor.js</key>
 		<data>
-		tjYSrjRMHAlPuecYY2eQqsBNLGs=
+		gB4JIBgOK0dtNrimixVj7BWawzw=
 		</data>
 		<key>build.xcconfig</key>
 		<data>
@@ -338,7 +350,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			18P3OzDLjEtmQCZh8YVh22voDPH++yeR9jI6Hl4soXE=
+			mKtxqaYl72yH2CT/YBaFcs8XG6FGSR8H/qj5QefMvJ8=
 			</data>
 		</dict>
 		<key>app/package.json</key>
@@ -348,11 +360,25 @@
 			Gmud5bMiwpMrWduJGyR5Jci+PZQk5mjLiwx23iGA0fw=
 			</data>
 		</dict>
+		<key>app/runtime.f5d26b679c1164b176bd.hot-update.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QxaGhWxzKLLGxUIzLeaimbNc+iop/1pUhSzrpv3yf6M=
+			</data>
+		</dict>
+		<key>app/runtime.f5d26b679c1164b176bd.hot-update.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			x5f6Ufwr/V5h1ZkMYN6gy3VLUxhZ61oStVRAo2lYqrA=
+			</data>
+		</dict>
 		<key>app/runtime.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zA23KdD8FevCl83Actxr4uriUIX5uZEYLYIrJqCQvaI=
+			ja3Vkm+7McjuPOiWK1z17vqMNAWjltrNhm1NJqHM/SA=
 			</data>
 		</dict>
 		<key>app/tns_modules/inspector_modules.js</key>
@@ -362,11 +388,18 @@
 			naKwvx7YKVq/P/s1B+guJOySO59dkMllmtAPgJx5XNc=
 			</data>
 		</dict>
+		<key>app/vendor.f5d26b679c1164b176bd.hot-update.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			trVZWliupVxpsALqJW19xbTK6mOHPVZ9oC4oMTHt8f0=
+			</data>
+		</dict>
 		<key>app/vendor.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ITA8Ajt1hN7V5JLUjm6NqbGqFLAh0qh7sMfAOuRRtHQ=
+			2B9tg0bSkhExfCxtrtJNOgsoOYxBBBeJWzn+3/jgGWg=
 			</data>
 		</dict>
 		<key>build.xcconfig</key>
