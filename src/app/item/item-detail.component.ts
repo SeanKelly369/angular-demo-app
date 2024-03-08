@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core'
 import { ActivatedRoute } from '@angular/router'
 
-import { Item } from './item'
+import { ItemVM } from './item'
 import { ItemService } from './item.service'
 
 @Component({
@@ -9,7 +9,7 @@ import { ItemService } from './item.service'
   templateUrl: './item-detail.component.html',
 })
 export class ItemDetailComponent implements OnInit {
-  item: Item
+  item: ItemVM
 
   constructor(private itemService: ItemService, private route: ActivatedRoute) {}
 

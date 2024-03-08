@@ -1,0 +1,155 @@
+<ActionBar title="ui-collectionview-sean" class="action-bar"> </ActionBar>
+
+<StackLayout>
+  <GridLayout class="button-container" columns="auto auto">
+    <Button [text]="generatePlayers" class="button" (tap)="addPlayers()"></Button>
+    <Label col="1" [text]="this.itemService.items.length + 2" marginLeft="5" fontSize="16"></Label>
+  </GridLayout>
+    <GridLayout columns="60 1 *" rows="54 1 *">
+      <GridLayout row="0" col="0" columns="* 20" class="table-header" (tap)="sortTableById()">
+        <Label col="0" [text]="id"></Label>
+        <!-- Why does this image not appear? Does it need to be in a specific assets folder? -->
+        <Image #sortArrow col="1" src="~/assets/sort_default.png" width="100%" height="40"></Image>
+      </GridLayout>
+      <StackLayout row="0" col="1" class="horizontal-heading-divider"></StackLayout>
+      <StackLayout row="2" col="1" class="horizontal-heading-divider"></StackLayout>
+
+      <StackLayout row="1" class="vertical-heading-divider"></StackLayout>
+
+      <StackLayout row="0" col="2">
+        <ScrollView #tableMainHeadings
+          orientation="horizontal"
+          (scroll)="onScrollHorizontallyHeadings($event)"
+          (loaded)="doLoadedRemoveBandingAnimation($event)"
+        >
+            <GridLayout columns="210 1 240 1 80 1 180 1 120 1 120 1 90 1 80">
+
+              <StackLayout col="0" class="table-header">
+                <Label text="Name"></Label>
+              </StackLayout>
+              <StackLayout col="1" class="horizontal-heading-divider"></StackLayout>
+              <StackLayout col="2" class="table-header">
+                <Label [text]="position"></Label>
+              </StackLayout>
+              <StackLayout col="3" class="horizontal-heading-divider"></StackLayout>
+              <StackLayout col="4" class="table-header">
+                <Label [text]="height"></Label>
+              </StackLayout>
+              <StackLayout col="5" class="horizontal-heading-divider"></StackLayout>
+              <StackLayout col="6" class="table-header">
+                <Label [text]="nationality"></Label>
+              </StackLayout>
+              <StackLayout col="7" class="horizontal-heading-divider"></StackLayout>
+              <StackLayout col="8" class="table-header">
+                <Label [text]="dateOfBirth"></Label>
+              </StackLayout>
+              <StackLayout col="9" class="horizontal-heading-divider"></StackLayout>
+              <StackLayout col="10" class="table-header">
+                <Label [text]="appearances"></Label>
+              </StackLayout>
+              <StackLayout col="11" class="horizontal-heading-divider"></StackLayout>
+              <StackLayout col="12" class="table-header">
+                <Label [text]="goals"></Label>
+              </StackLayout>
+              <StackLayout col="13" class="horizontal-heading-divider"></StackLayout>
+              <StackLayout col="14" class="table-header">
+                <Label [text]="assists"></Label>
+              </StackLayout>
+            </GridLayout>
+        </ScrollView>
+      </StackLayout>
+
+      <StackLayout row="1" height="1" class="vertical-heading-divider"></StackLayout>
+
+      <!-- Ids -->
+      <CollectionView #ids row="2" col="0" [items]="itemsOnScreen"
+        (scroll)="onScrollVertically($event)"
+        (loaded)="doLoadedRemoveBandingAnimation($event)"
+        isAnimationEnabled="false"
+      >
+        <ng-template cvListItemTemplate let-item let-odd="odd">
+          <StackLayout class="cell-height">
+            <StackLayout class="cell" [class.light-grey-cell]="odd" [class.white-cell]="!odd">
+              <Label class="jumbo-text" [text]="item.id"></Label>
+            </StackLayout>
+
+          </StackLayout>
+        </ng-template>
+      </CollectionView>
+
+      <StackLayout row="1" col="1" width="1" class="horizontal-heading-divider"></StackLayout>
+
+      <StackLayout row="1" col="2" class="vertical-heading-divider"></StackLayout>
+
+
+      <!-- Main table body -->
+      <ScrollView row="2" col="2" #tableMainBody 
+        orientation="horizontal" 
+        (scroll)="onScrollHorizontallyMain($event)"
+        (loaded)="doLoadedRemoveBandingAnimation($event)"
+      >
+
+        <CollectionView #main backgroundColor="white" [items]="itemsOnScreen" width="1127"
+          (scroll)="onScrollVertically($event)"
+          (loaded)="doLoadedRemoveBandingAnimation($event)"
+          isAnimationEnabled="false"
+        >
+          <ng-template cvListItemTemplate let-item let-odd="odd" let-i="index">
+            <GridLayout columns="210 1 240 1 80 1 180 1 120 1 120 1 90 1 80">
+
+              <StackLayout col="0" [nsRouterLink]="['/item', item.id]" class="cell" [class.light-grey-cell]="odd" [class.white-cell]="!odd">
+                <Label [text]="item.name"></Label>
+              </StackLayout>
+
+              <StackLayout col="1" class="horizontal-heading-divider"></StackLayout>
+
+              <StackLayout col="2" class="cell" [class.light-grey-cell]="odd" [class.white-cell]="!odd">
+                <StackLayout [backgroundColor]="item.positionColour" width="auto" padding="2" borderRadius="3" horizontalAlignment="center">
+                  <Label [text]="item.position"></Label>
+                </StackLayout>
+              </StackLayout>
+
+              <StackLayout col="3" class="horizontal-heading-divider"></StackLayout>
+
+              <StackLayout col="4" class="cell" [class.light-grey-cell]="odd" [class.white-cell]="!odd">
+                <Label [text]="item.height"></Label>
+              </StackLayout>
+
+              <StackLayout col="5" class="horizontal-heading-divider"></StackLayout>
+
+              <StackLayout col="6" class="cell" [class.light-grey-cell]="odd" [class.white-cell]="!odd">
+                <Label [text]="item.nationality"></Label>
+              </StackLayout>
+
+              <StackLayout col="7" class="horizontal-heading-divider"></StackLayout>
+
+              <StackLayout col="8" class="cell" [class.light-grey-cell]="odd" [class.white-cell]="!odd">
+                <Label [text]="item.dob"></Label>
+              </StackLayout>
+
+              <StackLayout col="9" class="horizontal-heading-divider"></StackLayout>
+
+              <StackLayout col="10" class="cell" [class.light-grey-cell]="odd" [class.white-cell]="!odd">
+                <Label [text]="item.appearances"></Label>
+              </StackLayout>
+
+              <StackLayout col="11" class="horizontal-heading-divider"></StackLayout>
+
+              <StackLayout col="12" class="cell" [class.light-grey-cell]="odd" [class.white-cell]="!odd">
+                <Label [text]="item.goals"></Label>
+              </StackLayout>
+
+              <StackLayout col="13" class="horizontal-heading-divider"></StackLayout>
+
+              <StackLayout col="14" class="cell" [class.light-grey-cell]="odd" [class.white-cell]="!odd">
+                <Label [text]="item.assists"></Label>
+              </StackLayout>
+
+            </GridLayout>
+          </ng-template>
+        </CollectionView>
+      </ScrollView>
+    </GridLayout>
+</StackLayout>
+
+
