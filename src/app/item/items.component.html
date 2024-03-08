@@ -1,11 +1,5 @@
-<ActionBar title="My App"> </ActionBar>
+<ActionBar title="Demos & Testing App"> </ActionBar>
 
-<GridLayout>
-  <ListView [items]="items">
-    <ng-template let-item="item">
-      <StackLayout [nsRouterLink]="['/item', item.id]">
-        <Label [text]="item.name"></Label>
-      </StackLayout>
-    </ng-template>
-  </ListView>
-</GridLayout>
+<StackLayout>
+  <Button text="Collection View" class="button" [nsRouterLink]="['../ui-collectionview-sean']" width="60%"></Button>
+</StackLayout>
