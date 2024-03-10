@@ -7,6 +7,7 @@ import { TableSortType } from '../enums/table-sort-type';
 import { EventData, Image, ObservableArray, ScrollEventData, ScrollView } from '@nativescript/core';
 import * as stringConstants from "./ui-collectionview-sean.component.strings";
 
+const android = global.android;
 
 @Component({
 	selector: 'ui-collectionview-sean',
@@ -190,7 +191,7 @@ export class UiCollectionviewSeanComponent implements OnInit {
   // Removes elastic bouncing animation when ScrollView reaches the edges of lists
   doLoadedRemoveBandingAnimation(data: EventData): void {
     const scrollView = <ScrollView>data.object;
-    if(global.isAndroid) {
+    if(isAndroid) {
       scrollView.android.setOverScrollMode(android.view.View.OVER_SCROLL_NEVER);
       scrollView.android.setVerticalScrollBarEnabled(false);
       scrollView.android.setHorizontalScrollBarEnabled(false);
