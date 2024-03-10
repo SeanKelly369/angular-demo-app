@@ -4,7 +4,7 @@ import { CollectionViewModule } from '@nativescript-community/ui-collectionview/
 import { UiCollectionviewSeanComponent } from './ui-collectionview-sean.component';
 
 @NgModule({
-	imports: [NativeScriptCommonModule, CollectionViewModule, NativeScriptRouterModule.forChild([{ path: '', component: UiCollectionviewSeanComponent }])],
+  imports: [NativeScriptCommonModule, CollectionViewModule, NativeScriptRouterModule.forChild([{ path: '', component: UiCollectionviewSeanComponent }])],
   declarations: [UiCollectionviewSeanComponent],
   schemas: [ NO_ERRORS_SCHEMA]
 })
