@@ -7,6 +7,7 @@ import { TableSortType } from '../enums/table-sort-type';
 import { EventData, Image, ObservableArray, ScrollEventData, ScrollView } from '@nativescript/core';
 import * as stringConstants from "./ui-collectionview-sean.component.strings";
 
+
 @Component({
 	selector: 'ui-collectionview-sean',
 	templateUrl: 'ui-collectionview-sean.component.html',

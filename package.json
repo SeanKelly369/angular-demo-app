@@ -11,22 +11,30 @@
     "@angular/forms": "17.1.1",
     "@angular/platform-browser": "17.1.1",
     "@angular/platform-browser-dynamic": "17.1.1",
-    "@nativescript-community/ui-collectionview": "5.3.26",
     "@angular/router": "17.1.1",
+    "@nativescript-community/ui-collectionview": "5.3.26",
     "@nativescript/angular": "17.0.0",
     "@nativescript/core": "8.6.2",
     "@nativescript/theme": "~3.0.2",
+    "@nativescript/unit-test-runner": "^3.0.4",
     "rxjs": "~7.8.1",
     "zone.js": "~0.14.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "17.1.1",
     "@angular/compiler-cli": "17.1.1",
-    "@nativescript/ios": "8.6.3",
+    "@jsdevtools/coverage-istanbul-loader": "3.0.5",
     "@nativescript/android": "8.6.2",
+    "@nativescript/ios": "8.6.3",
     "@nativescript/types": "8.6.1",
     "@nativescript/webpack": "5.0.18",
     "@ngtools/webpack": "17.1.1",
+    "@types/jasmine": "5.1.4",
+    "karma": "6.4.2",
+    "karma-coverage": "2.2.1",
+    "karma-jasmine": "4.0.2",
+    "karma-nativescript-launcher": "0.4.0",
+    "nyc": "15.1.0",
     "typescript": "5.3.3"
   }
 }
