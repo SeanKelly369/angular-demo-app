@@ -1,4 +1,4 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, async } from '@angular/core/testing';
 import { UiCollectionviewSeanComponent } from './ui-collectionview-sean.component';
 import 'zone.js';
 
@@ -6,8 +6,8 @@ describe('UiCollectionviewSeanComponent', () => {
     let component: UiCollectionviewSeanComponent;
     let fixture: ComponentFixture<UiCollectionviewSeanComponent>;
 
-    beforeEach(( async () => {
-      await TestBed.configureTestingModule({
+    beforeEach(async(() => {
+      TestBed.configureTestingModule({
         declarations: [UiCollectionviewSeanComponent]
       }).compileComponents();
 
