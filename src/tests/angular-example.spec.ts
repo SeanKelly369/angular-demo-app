@@ -1,7 +1,7 @@
 import { TestBed } from '@angular/core/testing'
 import { UiCollectionviewSeanComponent } from '../app/ui-collectionview-demo/ui-collectionview-sean.component'
 import { Page } from '@nativescript/core'
-// import 'zone.js/dist/zone-testing';
+import 'zone.js/dist/zone-testing'; // Uncommented this line
 
 describe('search.component', () => {
   beforeEach(async () => {
