@@ -4,7 +4,7 @@
         "sourceMap": true
     },
 	"files": ["src/test.ts"],
-	"include": ["src/**/*.spec.ts", "src/**/*.d.ts"],
-	"exclude": ["node_modules", "platforms", "e2e"]
+	"include": ["src/**/*.spec.ts", "src/**/*.d.ts", "./src/tests/test-main.ts", "./src/tests/*.spec.ts", "./src/tests/**/*.spec.ts", "**/*.d.ts"],
+	"exclude": ["node_modules", "platforms", "e2e"],
 
 }
