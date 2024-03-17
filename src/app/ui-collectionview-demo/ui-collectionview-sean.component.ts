@@ -106,6 +106,10 @@ export class UiCollectionviewSeanComponent implements OnInit {
     });
   }
 
+  setTest() {
+    return true;
+  }
+
   setVerticalOffsetsToZero(): void {
     this.idsCollectionView.scrollToOffset(0, false);
     this.mainCollectionView.scrollToOffset(0, false);

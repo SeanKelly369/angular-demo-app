@@ -1,10 +1,24 @@
 {
 	"extends": "./tsconfig.json",
-    "compilerOptions": {
-        "sourceMap": true,
-		"types": ["node", "jasmine"]
-    },
-	"files": ["src/test.ts", "references.d.ts"],
-	"include": ["src/**/*.spec.ts", "src/**/*.d.ts", "./src/tests/test-main.ts", "./src/tests/*.spec.ts", "./src/tests/**/*.spec.ts", "**/*.d.ts"],
-	"exclude": ["node_modules", "platforms", "e2e"],
-}
+	"compilerOptions": {
+	  "sourceMap": true,
+	  "types": ["node", "jasmine"]
+	},
+	"files": [
+	  "src/test.ts",
+	  "references.d.ts"
+	],
+	"include": [
+	  "src/**/*.spec.ts",
+	  "src/**/*.d.ts",
+	  "./src/tests/test-main.ts",
+	  "./src/tests/*.spec.ts",
+	  "./src/tests/**/*.spec.ts",
+	  "**/*.d.ts"
+	],
+	"exclude": [
+	  "node_modules",
+	  "platforms",
+	  "e2e"
+	]
+  }
