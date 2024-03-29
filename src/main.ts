@@ -1,5 +1,3 @@
-import 'zone.js'
-import 'zone.js/testing'
 import { platformNativeScript, runNativeScriptAngularApp } from '@nativescript/angular';
 
 import { AppModule } from './app/app.module';

@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: '', redirectTo: '/items', pathMatch: 'full' },
   { path: 'items', component: ItemsComponent },
   { path: 'item/:id', component: ItemDetailComponent },
+  { path: 'ui-component', loadChildren: () => import('./ui-collectionview-demo/ui-collectionview-sean.module').then(m => m.UiCollectionviewSeanModule) },
   { path: 'ui-collectionview-sean', loadChildren: () => import('./ui-collectionview-demo/ui-collectionview-sean.module').then(m => m.UiCollectionviewSeanModule) }
 ];
 
