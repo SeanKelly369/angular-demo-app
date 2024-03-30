@@ -12,14 +12,15 @@
 		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
-		9CEEAC21D5B342CEB1CEDC9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC814E5099654E10B15F1C99 /* Assets.xcassets */; };
-		5768916A90924D58B5005FDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47452698A2B543FEA42A1410 /* LaunchScreen.storyboard */; };
-		3D568C4FEC484661A294C643 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 92B986FB0C6546ADA314D973 /* build.xcconfig */; };
-		1D46802F64CE48589AD250C1 /* NativeScriptEmbedder.m in Sources */ = {isa = PBXBuildFile; fileRef = 31298D8683A3477C97700A8F /* NativeScriptEmbedder.m */; };
-		F66C1A83A7214FD59AA7C6B0 /* NativeScriptUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD6C641A6124A6AB80DE8B3 /* NativeScriptUtils.m */; };
-		5017509792904384B0453516 /* UIView+NativeScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 23857C5D080748E8A8C5D68D /* UIView+NativeScript.m */; };
-		4AB7E86DDD87462F9F3816C7 /* TNSWidgets.xcframework in Resources */ = {isa = PBXBuildFile; fileRef = 00376D005C5544E6B9274E43 /* TNSWidgets.xcframework */; };
-		68670652EA0844EDBBC58FA7 /* TNSWidgets.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00376D005C5544E6B9274E43 /* TNSWidgets.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		31F381EB196D46C4BB8C3023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F1E61825504D3C9D3D4B10 /* Assets.xcassets */; };
+		CD12110564D94C7E998A7126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3475DEED0EBF4BE091F100C0 /* LaunchScreen.storyboard */; };
+		6347937563F84A0E9F5E9325 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 22714819554B4AB690F8F9BF /* build.xcconfig */; };
+		F7B9EAF8DBE34A69984564D9 /* UICollectionViewCacheDelegateFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4B9016E3CA46A3887A7BD8 /* UICollectionViewCacheDelegateFlowLayout.m */; };
+		EF4E4718DBBF48CFA66F322E /* NativeScriptEmbedder.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F1A16B109B466085DFFA5B /* NativeScriptEmbedder.m */; };
+		73C9DEB899CE44DB8A2A7E4D /* NativeScriptUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B98652E1CC1D48DB9F7A041C /* NativeScriptUtils.m */; };
+		D8446EB8C2F24BCF8940181B /* UIView+NativeScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E300BE523F44739A5D10B9 /* UIView+NativeScript.m */; };
+		3A535A10AD0E4EB689B81E50 /* TNSWidgets.xcframework in Resources */ = {isa = PBXBuildFile; fileRef = DB34874901A3448D8D0A66C6 /* TNSWidgets.xcframework */; };
+		26BAD9708A9C461BA8C2F6A6 /* TNSWidgets.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB34874901A3448D8D0A66C6 /* TNSWidgets.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,7 +32,7 @@
 			files = (
 				39940D9122C4EF600050DDE1 /* NativeScript.xcframework in Embed Frameworks */,
 				39940E1C22C5DFFF0050DDE1 /* TKLiveSync.xcframework in Embed Frameworks */,
-				68670652EA0844EDBBC58FA7 /* TNSWidgets.xcframework in Embed Frameworks */,
+				26BAD9708A9C461BA8C2F6A6 /* TNSWidgets.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,17 +62,22 @@
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
 		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
 		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
-		CC814E5099654E10B15F1C99 /* Assets.xcassets */ = {isa = PBXFileReference; name = Assets.xcassets; path = "angulardemoapp/Resources/Assets.xcassets"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = folder.assetcatalog; explicitFileType = undefined; includeInIndex = 0; };
-		47452698A2B543FEA42A1410 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; name = LaunchScreen.storyboard; path = "angulardemoapp/Resources/LaunchScreen.storyboard"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		92B986FB0C6546ADA314D973 /* build.xcconfig */ = {isa = PBXFileReference; name = build.xcconfig; path = "angulardemoapp/Resources/build.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.xcconfig; explicitFileType = undefined; includeInIndex = 0; };
-		AE6CAFEA10CB45D4971C8E2C /* NativeScriptEmbedder.h */ = {isa = PBXFileReference; name = NativeScriptEmbedder.h; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		31298D8683A3477C97700A8F /* NativeScriptEmbedder.m */ = {isa = PBXFileReference; name = NativeScriptEmbedder.m; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		500F904DEF5A4537A525E3D1 /* NativeScriptUtils.h */ = {isa = PBXFileReference; name = NativeScriptUtils.h; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptUtils.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		0FD6C641A6124A6AB80DE8B3 /* NativeScriptUtils.m */ = {isa = PBXFileReference; name = NativeScriptUtils.m; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptUtils.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		0A5FE56F035C47AA90E85E49 /* UIView+NativeScript.h */ = {isa = PBXFileReference; name = "UIView+NativeScript.h"; path = "../../node_modules/@nativescript/core/platforms/ios/src/UIView+NativeScript.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		23857C5D080748E8A8C5D68D /* UIView+NativeScript.m */ = {isa = PBXFileReference; name = "UIView+NativeScript.m"; path = "../../node_modules/@nativescript/core/platforms/ios/src/UIView+NativeScript.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		EE151EC5E7C6429298B67764 /* module.modulemap */ = {isa = PBXFileReference; name = module.modulemap; path = "../../node_modules/@nativescript/core/platforms/ios/src/module.modulemap"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = sourcecode.module-map; explicitFileType = undefined; includeInIndex = 0; };
-		00376D005C5544E6B9274E43 /* TNSWidgets.xcframework */ = {isa = PBXFileReference; name = TNSWidgets.xcframework; path = "$(SRCROOT)/../../node_modules/@nativescript/core/platforms/ios/TNSWidgets.xcframework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C6F1E61825504D3C9D3D4B10 /* Assets.xcassets */ = {isa = PBXFileReference; name = Assets.xcassets; path = "angulardemoapp/Resources/Assets.xcassets"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = folder.assetcatalog; explicitFileType = undefined; includeInIndex = 0; };
+		3475DEED0EBF4BE091F100C0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; name = LaunchScreen.storyboard; path = "angulardemoapp/Resources/LaunchScreen.storyboard"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		22714819554B4AB690F8F9BF /* build.xcconfig */ = {isa = PBXFileReference; name = build.xcconfig; path = "angulardemoapp/Resources/build.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.xcconfig; explicitFileType = undefined; includeInIndex = 0; };
+		97A48598B36E46CF98113182 /* Info.plist */ = {isa = PBXFileReference; name = Info.plist; path = "../../node_modules/@nativescript-community/ui-collectionview/platforms/ios/src/Info.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
+		143FA18B04D249CB9D495547 /* NSCollectionView.h */ = {isa = PBXFileReference; name = NSCollectionView.h; path = "../../node_modules/@nativescript-community/ui-collectionview/platforms/ios/src/NSCollectionView.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		917C1F1BBFDB4A1C92017C42 /* UICollectionViewCacheDelegateFlowLayout.h */ = {isa = PBXFileReference; name = UICollectionViewCacheDelegateFlowLayout.h; path = "../../node_modules/@nativescript-community/ui-collectionview/platforms/ios/src/UICollectionViewCacheDelegateFlowLayout.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		FA4B9016E3CA46A3887A7BD8 /* UICollectionViewCacheDelegateFlowLayout.m */ = {isa = PBXFileReference; name = UICollectionViewCacheDelegateFlowLayout.m; path = "../../node_modules/@nativescript-community/ui-collectionview/platforms/ios/src/UICollectionViewCacheDelegateFlowLayout.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		9A2786D9839D4DDAAF75DE30 /* module.modulemap */ = {isa = PBXFileReference; name = module.modulemap; path = "../../node_modules/@nativescript-community/ui-collectionview/platforms/ios/src/module.modulemap"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = sourcecode.module-map; explicitFileType = undefined; includeInIndex = 0; };
+		AB7F3CD2C8CA4526AAA78433 /* NativeScriptEmbedder.h */ = {isa = PBXFileReference; name = NativeScriptEmbedder.h; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		27F1A16B109B466085DFFA5B /* NativeScriptEmbedder.m */ = {isa = PBXFileReference; name = NativeScriptEmbedder.m; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		A6CF800138404BE986172947 /* NativeScriptUtils.h */ = {isa = PBXFileReference; name = NativeScriptUtils.h; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptUtils.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		B98652E1CC1D48DB9F7A041C /* NativeScriptUtils.m */ = {isa = PBXFileReference; name = NativeScriptUtils.m; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptUtils.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		0E2D54B8EFBC46D6B040A9D2 /* UIView+NativeScript.h */ = {isa = PBXFileReference; name = "UIView+NativeScript.h"; path = "../../node_modules/@nativescript/core/platforms/ios/src/UIView+NativeScript.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		06E300BE523F44739A5D10B9 /* UIView+NativeScript.m */ = {isa = PBXFileReference; name = "UIView+NativeScript.m"; path = "../../node_modules/@nativescript/core/platforms/ios/src/UIView+NativeScript.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		A897D785103F4D91B458CBF2 /* module.modulemap */ = {isa = PBXFileReference; name = module.modulemap; path = "../../node_modules/@nativescript/core/platforms/ios/src/module.modulemap"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = sourcecode.module-map; explicitFileType = undefined; includeInIndex = 0; };
+		DB34874901A3448D8D0A66C6 /* TNSWidgets.xcframework */ = {isa = PBXFileReference; name = TNSWidgets.xcframework; path = "$(SRCROOT)/../../node_modules/@nativescript/core/platforms/ios/TNSWidgets.xcframework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AB7E86DDD87462F9F3816C7 /* TNSWidgets.xcframework in Resources */,
+				3A535A10AD0E4EB689B81E50 /* TNSWidgets.xcframework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,8 +120,10 @@
 				858B833718CA111C00AB12DE /* angulardemoapp */,
 				858B833018CA111C00AB12DE /* Frameworks */,
 				858B832F18CA111C00AB12DE /* Products */,
-				21627102D64B43DB86598799 /* TNSNativeSource */,
-				6F478FC91EC542E687CA0652 /* @nativescript/core */,
+				D73DE3F6D1BB4CB595F33AF4 /* TNSNativeSource */,
+				601EE8276D7A4F14B062D28E /* @nativescript-community/ui-collectionview */,
+				9BCF94BA53D447F3B5E1BF97 /* @nativescript/core */,
+				9593FC40C7BA40B5B2F3A4D0 /* @nativescript/unit-test-runner */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,7 +141,7 @@
 			children = (
 				39940E1B22C5DFFF0050DDE1 /* TKLiveSync.xcframework */,
 				39940D8C22C4EAAA0050DDE1 /* NativeScript.xcframework */,
-				00376D005C5544E6B9274E43 /* TNSWidgets.xcframework */,
+				DB34874901A3448D8D0A66C6 /* TNSWidgets.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -169,32 +177,51 @@
 		E070579D1B39A9D000214BF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CC814E5099654E10B15F1C99 /* Assets.xcassets */,
-				47452698A2B543FEA42A1410 /* LaunchScreen.storyboard */,
-				92B986FB0C6546ADA314D973 /* build.xcconfig */,
+				C6F1E61825504D3C9D3D4B10 /* Assets.xcassets */,
+				3475DEED0EBF4BE091F100C0 /* LaunchScreen.storyboard */,
+				22714819554B4AB690F8F9BF /* build.xcconfig */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		21627102D64B43DB86598799 /* TNSNativeSource */ = {
+		D73DE3F6D1BB4CB595F33AF4 /* TNSNativeSource */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = TNSNativeSource;
 			sourceTree = "<group>";
 		};
-		6F478FC91EC542E687CA0652 /* @nativescript/core */ = {
+		601EE8276D7A4F14B062D28E /* @nativescript-community/ui-collectionview */ = {
 			isa = PBXGroup;
 			children = (
-				AE6CAFEA10CB45D4971C8E2C /* NativeScriptEmbedder.h */,
-				31298D8683A3477C97700A8F /* NativeScriptEmbedder.m */,
-				500F904DEF5A4537A525E3D1 /* NativeScriptUtils.h */,
-				0FD6C641A6124A6AB80DE8B3 /* NativeScriptUtils.m */,
-				0A5FE56F035C47AA90E85E49 /* UIView+NativeScript.h */,
-				23857C5D080748E8A8C5D68D /* UIView+NativeScript.m */,
-				EE151EC5E7C6429298B67764 /* module.modulemap */,
+				97A48598B36E46CF98113182 /* Info.plist */,
+				143FA18B04D249CB9D495547 /* NSCollectionView.h */,
+				917C1F1BBFDB4A1C92017C42 /* UICollectionViewCacheDelegateFlowLayout.h */,
+				FA4B9016E3CA46A3887A7BD8 /* UICollectionViewCacheDelegateFlowLayout.m */,
+				9A2786D9839D4DDAAF75DE30 /* module.modulemap */,
+			);
+			name = "@nativescript-community/ui-collectionview";
+			sourceTree = "<group>";
+		};
+		9BCF94BA53D447F3B5E1BF97 /* @nativescript/core */ = {
+			isa = PBXGroup;
+			children = (
+				AB7F3CD2C8CA4526AAA78433 /* NativeScriptEmbedder.h */,
+				27F1A16B109B466085DFFA5B /* NativeScriptEmbedder.m */,
+				A6CF800138404BE986172947 /* NativeScriptUtils.h */,
+				B98652E1CC1D48DB9F7A041C /* NativeScriptUtils.m */,
+				0E2D54B8EFBC46D6B040A9D2 /* UIView+NativeScript.h */,
+				06E300BE523F44739A5D10B9 /* UIView+NativeScript.m */,
+				A897D785103F4D91B458CBF2 /* module.modulemap */,
 			);
 			name = "@nativescript/core";
+			sourceTree = "<group>";
+		};
+		9593FC40C7BA40B5B2F3A4D0 /* @nativescript/unit-test-runner */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "@nativescript/unit-test-runner";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +288,9 @@
 			files = (
 				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
 				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
-				9CEEAC21D5B342CEB1CEDC9C /* Assets.xcassets in Resources */,
-				5768916A90924D58B5005FDF /* LaunchScreen.storyboard in Resources */,
-				3D568C4FEC484661A294C643 /* build.xcconfig in Resources */,
+				31F381EB196D46C4BB8C3023 /* Assets.xcassets in Resources */,
+				CD12110564D94C7E998A7126 /* LaunchScreen.storyboard in Resources */,
+				6347937563F84A0E9F5E9325 /* build.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,9 +357,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD62955D1BB2678900AE3A93 /* main.m in Sources */,
-				1D46802F64CE48589AD250C1 /* NativeScriptEmbedder.m in Sources */,
-				F66C1A83A7214FD59AA7C6B0 /* NativeScriptUtils.m in Sources */,
-				5017509792904384B0453516 /* UIView+NativeScript.m in Sources */,
+				F7B9EAF8DBE34A69984564D9 /* UICollectionViewCacheDelegateFlowLayout.m in Sources */,
+				EF4E4718DBBF48CFA66F322E /* NativeScriptEmbedder.m in Sources */,
+				73C9DEB899CE44DB8A2A7E4D /* NativeScriptUtils.m in Sources */,
+				D8446EB8C2F24BCF8940181B /* UIView+NativeScript.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,7 +506,9 @@
 					"\"$SRCROOT/internal/Swift-Modules\"",
 					"\"$(SRCROOT)/internal\"",
 					"\"$(SRCROOT)/../../App_Resources/iOS/src\"",
+					"\"$(SRCROOT)/../../node_modules/@nativescript-community/ui-collectionview/platforms/ios/src\"",
 					"\"$(SRCROOT)/../../node_modules/@nativescript/core/platforms/ios/src\"",
+					"\"$(SRCROOT)/../../node_modules/@nativescript/unit-test-runner/platforms/ios/src\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/angulardemoapp/angulardemoapp-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -510,7 +540,9 @@
 					"$SRCROOT/internal/Swift-Modules",
 					"$(SRCROOT)/internal",
 					"\"$(SRCROOT)/../../App_Resources/iOS/src\"",
+					"\"$(SRCROOT)/../../node_modules/@nativescript-community/ui-collectionview/platforms/ios/src\"",
 					"\"$(SRCROOT)/../../node_modules/@nativescript/core/platforms/ios/src\"",
+					"\"$(SRCROOT)/../../node_modules/@nativescript/unit-test-runner/platforms/ios/src\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/angulardemoapp/angulardemoapp-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (

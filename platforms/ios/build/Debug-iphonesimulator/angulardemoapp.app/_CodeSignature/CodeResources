@@ -18,27 +18,27 @@
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
-		j5/B6K4L/4FJYJw6lKTJSUUFSqI=
+		r3HYDc56CAK05+5NHGEQthsJs+U=
 		</data>
 		<key>Frameworks/NativeScript.framework/NativeScript</key>
 		<data>
-		4hUG/h0q5X026LJKkQ3CnkiZKsU=
+		Qr9MeIr9QyT6hazMStJd9DNe5BI=
 		</data>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
 		<data>
-		mmGwGaTKkw/pQYjNnm9G2KNzxno=
+		CRP4ma56suUCDsL1vXqHs8ITLLw=
 		</data>
 		<key>Frameworks/TKLiveSync.framework/Info.plist</key>
 		<data>
-		PwoYe7OinVqvjytAfEKDZbo0Uyc=
+		I/nnb9mdwP/Kt2eufdlVBu0mmac=
 		</data>
 		<key>Frameworks/TKLiveSync.framework/TKLiveSync</key>
 		<data>
-		+Tiku/8+OoOpCDg1q9w2O4Bs9Mo=
+		LcRQgG+31wllqeHxQkTV3FGajB0=
 		</data>
 		<key>Frameworks/TKLiveSync.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Kfxy5jrhqC4HcQQetimWU0Y+0yg=
+		/kWmcKpQgQDEoPB1Bq8HThq+US0=
 		</data>
 		<key>Frameworks/TNSWidgets.framework/Headers/NSData+Async.h</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sygzc7dfs+x1NeExnQifN/PVDUA=
+		qpt0glhMQor0Qy83CkYlw6a6YUE=
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -116,37 +116,41 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>app/assets/sort_ascending.png</key>
+		<data>
+		uT6i7ZNPmmcBsRZMdHYtu4llyhU=
+		</data>
+		<key>app/assets/sort_default.png</key>
+		<data>
+		sqAgQNvnR4Z8Onvo3zA496WrltQ=
+		</data>
+		<key>app/assets/sort_descending.png</key>
+		<data>
+		MN4JXX2I+vM43YZoxC4gBJUtNHk=
+		</data>
 		<key>app/bundle.js</key>
 		<data>
-		AizGZwxUpR7Hb0Xbx7gI19pngpg=
+		cMt+eT9Vn9M0IKUe6gz9dwyPNAI=
 		</data>
 		<key>app/package.json</key>
 		<data>
 		itzMPDzLq+Ekr2x3pab8B3Vk3Us=
 		</data>
-		<key>app/runtime.f5d26b679c1164b176bd.hot-update.js</key>
-		<data>
-		MwzithJWL9Oo/5fynyvt3d84KHA=
-		</data>
-		<key>app/runtime.f5d26b679c1164b176bd.hot-update.json</key>
-		<data>
-		J+lGGeTIo2fdNm4p1lD3+DGOuJ8=
-		</data>
 		<key>app/runtime.js</key>
 		<data>
-		m3AzVmZytDAXCKRrd2Ap2niZLq0=
+		6uLx6YiEqE843NIo9X2UAcZ1gTI=
+		</data>
+		<key>app/src_app_ui-collectionview-demo_ui-collectionview-sean_module_ts.js</key>
+		<data>
+		Mn3Y0aj/7ah5liGqQcc4JXvXhj8=
 		</data>
 		<key>app/tns_modules/inspector_modules.js</key>
 		<data>
 		GwpyORDCmAGh0MUPNAkpV7e+E1k=
 		</data>
-		<key>app/vendor.f5d26b679c1164b176bd.hot-update.js</key>
-		<data>
-		QFK1bnLiZfbQRZPVv38LTX/pf4U=
-		</data>
 		<key>app/vendor.js</key>
 		<data>
-		gB4JIBgOK0dtNrimixVj7BWawzw=
+		snqsIHFtlhOhGj6axgrP1j0Vpj8=
 		</data>
 		<key>build.xcconfig</key>
 		<data>
@@ -189,42 +193,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ts1DuWSuzFypXiKmPELUv1J4jzhDj0BkSpZzilmuvo8=
+			TgdDsES942nArf4JfpxHDkCBH8lk7+eOTwDGSMCKvc4=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/NativeScript</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sfh2C0RSws+qaRBqcy2ZiFdxLYPgf7ZVXomzLAkyOcc=
+			GnRTqJAdQZlHIgR2XhM16JM8cP3DK5Tael/29AJJ1Ks=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IVpNUys1EaoQ+y5FZUHaP7M6GM8S7Kx7zuxS6BwMrjk=
+			j+FsExTGKyVJ9M9k+UKX7p2RR7F2GHn+a++7CqEf4II=
 			</data>
 		</dict>
 		<key>Frameworks/TKLiveSync.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A5f3+KTkaLooSJp5y5eIZosPENF8OEs0a/pyRcz6MRo=
+			ZCFYrTaKlOXUiKMbaf4Tewg441cDSN6Cu0bW7s3Hpw4=
 			</data>
 		</dict>
 		<key>Frameworks/TKLiveSync.framework/TKLiveSync</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5VQJmWjKtDIG3wGXeS3JvM+kvUlKEH64Bzg2AVYoIjE=
+			67VT/Zyc16V2PMTRY2Z39P/LDERrww9QJAs2W4ouWrM=
 			</data>
 		</dict>
 		<key>Frameworks/TKLiveSync.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ipq7vm23ModPVeAcGAf93QcYq9JXZK8yiHysPvSxq20=
+			ILmtJx3su2kxRiyCslyTAgG3b93XVQmQ7AD+xFrWpoI=
 			</data>
 		</dict>
 		<key>Frameworks/TNSWidgets.framework/Headers/NSData+Async.h</key>
@@ -346,11 +350,32 @@
 			VPNjf2cf66XxnoLsT0p/tEi7PPwPsYDwiapXH8jwU+I=
 			</data>
 		</dict>
+		<key>app/assets/sort_ascending.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PuT1j7bmYQVbaNyOfNXf8obQlDaFJQt5NHwDlKMkGjY=
+			</data>
+		</dict>
+		<key>app/assets/sort_default.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g2JVRCZLqpurRgB9LmukYtXcmp3fEKD1XohHavr77OY=
+			</data>
+		</dict>
+		<key>app/assets/sort_descending.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			d/OkQN8fKVUilKSUAseiyhk9cI7f/oMJUYcrrPtOHrU=
+			</data>
+		</dict>
 		<key>app/bundle.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mKtxqaYl72yH2CT/YBaFcs8XG6FGSR8H/qj5QefMvJ8=
+			1iUnNFaHB9Ji97Dq32G/igF6qhobQf6G7motlk3lwPA=
 			</data>
 		</dict>
 		<key>app/package.json</key>
@@ -360,25 +385,18 @@
 			Gmud5bMiwpMrWduJGyR5Jci+PZQk5mjLiwx23iGA0fw=
 			</data>
 		</dict>
-		<key>app/runtime.f5d26b679c1164b176bd.hot-update.js</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QxaGhWxzKLLGxUIzLeaimbNc+iop/1pUhSzrpv3yf6M=
-			</data>
-		</dict>
-		<key>app/runtime.f5d26b679c1164b176bd.hot-update.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			x5f6Ufwr/V5h1ZkMYN6gy3VLUxhZ61oStVRAo2lYqrA=
-			</data>
-		</dict>
 		<key>app/runtime.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ja3Vkm+7McjuPOiWK1z17vqMNAWjltrNhm1NJqHM/SA=
+			FMJKvmPXM+OyYEZr8WVhOr/2M3AQYX4rcJCecYia1aM=
+			</data>
+		</dict>
+		<key>app/src_app_ui-collectionview-demo_ui-collectionview-sean_module_ts.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AZyMbzxXjqf7R7mSAOKKuz0EtoTqAnYr7xx2xXyZEAs=
 			</data>
 		</dict>
 		<key>app/tns_modules/inspector_modules.js</key>
@@ -388,18 +406,11 @@
 			naKwvx7YKVq/P/s1B+guJOySO59dkMllmtAPgJx5XNc=
 			</data>
 		</dict>
-		<key>app/vendor.f5d26b679c1164b176bd.hot-update.js</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			trVZWliupVxpsALqJW19xbTK6mOHPVZ9oC4oMTHt8f0=
-			</data>
-		</dict>
 		<key>app/vendor.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2B9tg0bSkhExfCxtrtJNOgsoOYxBBBeJWzn+3/jgGWg=
+			mHOmTc8Tr+XZRyU6KXUvXnUBLKdnQaGSQ7hGddj9LYc=
 			</data>
 		</dict>
 		<key>build.xcconfig</key>
