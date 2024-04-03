@@ -1,6 +1,8 @@
+import { ChangeDetectorRef, NgZone } from "@angular/core";
 import { ComponentFixture, TestBed } from "@angular/core/testing";
 import { CollectionViewModule } from "@nativescript-community/ui-collectionview/angular";
 import { Page } from "@nativescript/core";
+import { ItemService } from "~/app/item/item.service";
 import { UiCollectionviewSeanComponent } from "~/app/ui-collectionview-demo/ui-collectionview-sean.component";
 describe("search.component", () => {
     let component: UiCollectionviewSeanComponent;
@@ -9,7 +11,12 @@ describe("search.component", () => {
     beforeEach(async () => {
         await TestBed.configureTestingModule({
             declarations: [UiCollectionviewSeanComponent],
-            providers: [Page],
+            providers: [
+                { provide: ItemService },
+                Page,
+                NgZone,
+                ChangeDetectorRef
+            ],
             imports: [CollectionViewModule]
         }).compileComponents();
     });
@@ -17,6 +24,11 @@ describe("search.component", () => {
     beforeEach(() => {
         fixture = TestBed.createComponent(UiCollectionviewSeanComponent);
         component = <UiCollectionviewSeanComponent>fixture.componentInstance;
+        fixture.detectChanges();
+    });
+
+    it('should inject dependencies', () => {
+        expect(component.itemService).toBeTruthy();
     });
 
     it("should be true", async () => {

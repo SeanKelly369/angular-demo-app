@@ -25,7 +25,7 @@
     "@angular/compiler-cli": "17.1.1",
     "@jsdevtools/coverage-istanbul-loader": "3.0.5",
     "@nativescript/android": "8.6.2",
-    "@nativescript/ios": "8.6.3",
+    "@nativescript/ios": "8.6.4",
     "@nativescript/types": "8.6.1",
     "@nativescript/webpack": "5.0.18",
     "@ngtools/webpack": "17.1.1",
