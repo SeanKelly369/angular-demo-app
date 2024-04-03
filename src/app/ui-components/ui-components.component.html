@@ -1,5 +1,18 @@
 <ActionBar title="ui-components" class="action-bar"> </ActionBar>
 
 <StackLayout>
+    <Button #animatedExample text="Animated Example" (tap)="onTapEvent()"></Button>
+    <StackLayout #doubleTap backgroundColor="skyblue" (loaded)="onDoubleTapExampleLoaded($event)">
+        <StackLayout class="centerText">
+            <Label text="Double Tap Example"></Label>
+        </StackLayout>
+    </StackLayout>
 
+    <StackLayout #stackDemo (tap)="onTapEventTwo()" width="120" height="42" backgroundColor="#64ff22">
+        <Label text="Styles Demo"></Label>
+    </StackLayout>
+
+    <AbsoluteLayout #absoluteExample (tap)="absoluteLayoutChange()" class="absoluteOn">
+        <Label text="Absolutely" class="centerText fullSize"></Label>
+    </AbsoluteLayout>
 </StackLayout>
