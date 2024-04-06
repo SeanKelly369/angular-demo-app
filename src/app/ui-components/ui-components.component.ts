@@ -20,8 +20,13 @@ export class UiComponentsComponent {
     
     isOn: boolean = false;
     isAbsoluteOn: boolean = false;
-    // scaleChange: Pair = Pair(4000, 5444);
 
+    addRemove: StackLayout;
+    @ViewChild('addRemove') set addRemoveSet (addRemoveRef: ElementRef) {
+        if(addRemoveRef) {
+            this.addRemove = <StackLayout>addRemoveRef.nativeElement;
+        }
+    }
 
     absoluteExample: AbsoluteLayout
     @ViewChild('absoluteExample') set absoluteExampleSet (absoluteExampleRef: ElementRef) {
@@ -51,6 +56,22 @@ export class UiComponentsComponent {
       }
     }
 
+    addStack(): void {
+        const newStackLayoutElement = new StackLayout();
+        newStackLayoutElement.setProperty('height', '80');
+        newStackLayoutElement.setProperty('width', '96%');
+        newStackLayoutElement.horizontalAlignment = 'center';
+        newStackLayoutElement.margin = 5;
+        newStackLayoutElement.backgroundColor = this.skyBlueColour;
+        this.addRemove.addChild(newStackLayoutElement)
+    }
+
+    removeStack(): void {
+        const childrenCount = this.addRemove.getChildrenCount();
+        const childToRemove = this.addRemove.getChildAt(childrenCount - 1);
+        this.addRemove.removeChild(childToRemove);
+    }
+
     absoluteLayoutChange() {
 
         this.isAbsoluteOn = !this.isAbsoluteOn;
@@ -61,10 +82,10 @@ export class UiComponentsComponent {
                 duration: 1000,
                 translate: <Pair>{x: 5, y: 6},
                 scale: <Pair>{x: 1.2, y: 0.8},
-                height: 20,
-                width: 40,
+                height: 26,
+                width: 80,
                 delay: 200,
-                rotate: 12,
+                rotate: 3,
                 curve: CoreTypes.AnimationCurve.cubicBezier(0, 3, 0, 6),
                 iterations: 2,
             });
@@ -88,11 +109,12 @@ export class UiComponentsComponent {
     }
 
     onTapEventTwo(): void {
-        this.stackDemo.backgroundColor = '#efefef';
         this.stackDemo.opacity = 0.5;
         this.stackDemo.borderColor = '#2312ed';
         this.stackDemo.borderWidth = 2;
         this.stackDemo.height = 66;
+        this.stackDemo.width = 300;
+        this.stackDemo.backgroundColor = 'cadetblue';
         this.stackDemo.boxShadow = '2 2 3 2 rgba(0, 0, 0, 0.5)';
         this.stackDemo.margin = '6 4 6 4';
         this.stackDemo.color = new Color('rgba(255, 0, 0, 0.9)');

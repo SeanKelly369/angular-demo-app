@@ -2,7 +2,7 @@
 
 <StackLayout>
     <Button #animatedExample text="Animated Example" (tap)="onTapEvent()"></Button>
-    <StackLayout #doubleTap backgroundColor="skyblue" (loaded)="onDoubleTapExampleLoaded($event)">
+    <StackLayout #doubleTap backgroundColor="skyblue" (loaded)="onDoubleTapExampleLoaded($event)" marginTop="20" marginBottom="6">
         <StackLayout class="centerText">
             <Label text="Double Tap Example"></Label>
         </StackLayout>
@@ -15,4 +15,13 @@
     <AbsoluteLayout #absoluteExample (tap)="absoluteLayoutChange()" class="absoluteOn">
         <Label text="Absolutely" class="centerText fullSize"></Label>
     </AbsoluteLayout>
+
+    <GridLayout columns="* auto" rows="auto auto" marginTop="50">
+        <Button col="1" row="0" text="Add Stack" (tap)="addStack()"></Button>
+        <Button col="1" row="1" text="Remove Stack" (tap)="removeStack()"></Button>
+    </GridLayout>
+
+    <StackLayout #addRemove width="100%" height="auto" backgroundColor="blue">
+        <Label text="Add Remove Elements" color="white"></Label>
+    </StackLayout>
 </StackLayout>
